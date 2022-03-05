@@ -1,9 +1,14 @@
 tr,td,th{
-  border: 1px solid black;
+  border: 1px solid lightblue;
   padding:5px 10px;
 }
-td{
+th{
+  background: rgb(233, 233, 233);
   width: 43%;
+}
+#table-caption{
+  background: rgb(255, 229, 229);
+  padding: 5px;
 }
 .expense-header, .expense-footer{
   width: 500px;
