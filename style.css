@@ -1,0 +1,15 @@
+tr,td,th{
+  border: 1px solid black;
+  padding:5px 10px;
+}
+td{
+  width: 43%;
+}
+.expense-header, .expense-footer{
+  width: 500px;
+  margin: auto;
+}
+#add-item-btn{
+  display: block;
+  margin: 30px auto;
+}
