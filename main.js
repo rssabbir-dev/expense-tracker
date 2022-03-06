@@ -19,7 +19,9 @@ addItemBtn.addEventListener("click", () => {
       tableBody.appendChild(tr);
       document.getElementById("table-caption").style.display = "none";
     }
+    itemName.value = "";
+    itemAmount.value = "";
   }
-
-  
 });
+
+itemDate.value = new Date().toISOString().substring(0, 10);
